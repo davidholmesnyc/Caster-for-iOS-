@@ -13,6 +13,10 @@ Streams movies from put.io to chromecast using your iOS device
 <img src="screenshots/screenshot4.png">
 
 
+#todo 
+Code clean up
+Fix back and forward buttons
+
 #Google Instructions below 
 
 # Cast Hello Video - Swift.
