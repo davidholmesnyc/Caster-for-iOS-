@@ -1,3 +1,20 @@
+
+#Caster for iOS 
+Streams movies from put.io to chromecast using your iOS device 
+
+
+#Screenshots 
+<img src="screenshots/screenshot1.png">
+<img src="screenshots/screenshot5.png">
+<img src="screenshots/screenshot2.png">
+<img src="screenshots/screenshot3.png">
+
+*Hint - When cast button turns green you can now stream the movie 
+<img src="screenshots/screenshot4.png">
+
+
+#Google Instructions below 
+
 # Cast Hello Video - Swift.
 
 This Hello Video demo application shows how an iOS sender application can cast a video, and make use of the Cast SDK on iOS from Swift. For simplicity this app is not fully compliant with the UX Checklist. 
