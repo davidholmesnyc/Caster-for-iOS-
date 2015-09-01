@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45F972870116AA7BD381F799 /* libPods-HelloVideo-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0660C1BAAD046F4822611A61 /* libPods-HelloVideo-Swift.a */; };
+		EF03540F1A6582070012786E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF03540E1A6582070012786E /* AppDelegate.swift */; };
+		EF0354111A6582070012786E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0354101A6582070012786E /* ViewController.swift */; };
+		EF0354161A6582070012786E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0354151A6582070012786E /* Images.xcassets */; };
+		EF0354191A6582070012786E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0354171A6582070012786E /* LaunchScreen.xib */; };
+		FF2A38251B8C112500D4B296 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A38241B8C112500D4B296 /* SearchView.swift */; };
+		FF2A38271B8C136600D4B296 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A38261B8C136600D4B296 /* InfoTableViewCell.swift */; };
+		FF2A382A1B8CBF2500D4B296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2A38281B8CBF2500D4B296 /* Main.storyboard */; };
+		FF2A382C1B8D675A00D4B296 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2A382B1B8D675A00D4B296 /* SwiftyJSON.swift */; };
+		FF2A382E1B8E07E900D4B296 /* ring.gif in Resources */ = {isa = PBXBuildFile; fileRef = FF2A382D1B8E07E900D4B296 /* ring.gif */; };
+		FFFD66C11B79AF0D003C3B53 /* playicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFD66C01B79AF0D003C3B53 /* playicon.png */; };
+		FFFD66C31B8B9FA2003C3B53 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFD66C21B8B9FA2003C3B53 /* Just.swift */; };
+		FFFD66C51B8BEEB2003C3B53 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFD66C41B8BEEB2003C3B53 /* Media.xcassets */; };
+		FFFD66C71B8BEECC003C3B53 /* caster_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFD66C61B8BEECC003C3B53 /* caster_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0660C1BAAD046F4822611A61 /* libPods-HelloVideo-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloVideo-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D671BF7ABB541958E2E0DB1 /* Pods-HelloVideo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloVideo-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloVideo-Swift/Pods-HelloVideo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		D5CF10E6D4CCA1D526B2E58B /* Pods-HelloVideo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloVideo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloVideo-Swift/Pods-HelloVideo-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		EF0354091A6582070012786E /* HelloVideo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloVideo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF03540D1A6582070012786E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF03540E1A6582070012786E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF0354101A6582070012786E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF0354151A6582070012786E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF0354181A6582070012786E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF03542E1A69CD780012786E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging/Bridging-Header.h"; sourceTree = "<group>"; };
+		FF2A38241B8C112500D4B296 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		FF2A38261B8C136600D4B296 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		FF2A38291B8CBF2500D4B296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF2A382B1B8D675A00D4B296 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		FF2A382D1B8E07E900D4B296 /* ring.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ring.gif; sourceTree = "<group>"; };
+		FFFD66C01B79AF0D003C3B53 /* playicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playicon.png; sourceTree = "<group>"; };
+		FFFD66C21B8B9FA2003C3B53 /* Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
+		FFFD66C41B8BEEB2003C3B53 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FFFD66C61B8BEECC003C3B53 /* caster_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caster_icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0354061A6582070012786E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F972870116AA7BD381F799 /* libPods-HelloVideo-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BA9728277A934315E9AEE7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0660C1BAAD046F4822611A61 /* libPods-HelloVideo-Swift.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B890D18555DF6FCF4C7C95BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D671BF7ABB541958E2E0DB1 /* Pods-HelloVideo-Swift.debug.xcconfig */,
+				D5CF10E6D4CCA1D526B2E58B /* Pods-HelloVideo-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF0354001A6582070012786E = {
+			isa = PBXGroup;
+			children = (
+				FFFD66C21B8B9FA2003C3B53 /* Just.swift */,
+				EF03540B1A6582070012786E /* HelloVideo-Swift */,
+				EF03540A1A6582070012786E /* Products */,
+				B890D18555DF6FCF4C7C95BF /* Pods */,
+				8BA9728277A934315E9AEE7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EF03540A1A6582070012786E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0354091A6582070012786E /* HelloVideo-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF03540B1A6582070012786E /* HelloVideo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				FFFD66C41B8BEEB2003C3B53 /* Media.xcassets */,
+				FF2A38281B8CBF2500D4B296 /* Main.storyboard */,
+				FFFD66C61B8BEECC003C3B53 /* caster_icon.png */,
+				EF03540E1A6582070012786E /* AppDelegate.swift */,
+				EF0354101A6582070012786E /* ViewController.swift */,
+				FF2A38241B8C112500D4B296 /* SearchView.swift */,
+				FF2A382B1B8D675A00D4B296 /* SwiftyJSON.swift */,
+				FFFD66C01B79AF0D003C3B53 /* playicon.png */,
+				FF2A382D1B8E07E900D4B296 /* ring.gif */,
+				EF0354151A6582070012786E /* Images.xcassets */,
+				EF0354171A6582070012786E /* LaunchScreen.xib */,
+				EF03540C1A6582070012786E /* Supporting Files */,
+				EF03542E1A69CD780012786E /* Bridging-Header.h */,
+			);
+			path = "HelloVideo-Swift";
+			sourceTree = "<group>";
+		};
+		EF03540C1A6582070012786E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF03540D1A6582070012786E /* Info.plist */,
+				FF2A38261B8C136600D4B296 /* InfoTableViewCell.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0354081A6582070012786E /* HelloVideo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0354281A6582070012786E /* Build configuration list for PBXNativeTarget "HelloVideo-Swift" */;
+			buildPhases = (
+				2C657C0BA474984E9BDE8F00 /* Check Pods Manifest.lock */,
+				EF0354051A6582070012786E /* Sources */,
+				EF0354061A6582070012786E /* Frameworks */,
+				EF0354071A6582070012786E /* Resources */,
+				A9483ED179C9607ECC016702 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloVideo-Swift";
+			productName = "HelloVideo-Swift";
+			productReference = EF0354091A6582070012786E /* HelloVideo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0354011A6582070012786E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					EF0354081A6582070012786E = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = EQHXZ8M8AV;
+					};
+				};
+			};
+			buildConfigurationList = EF0354041A6582070012786E /* Build configuration list for PBXProject "HelloVideo-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0354001A6582070012786E;
+			productRefGroup = EF03540A1A6582070012786E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0354081A6582070012786E /* HelloVideo-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0354071A6582070012786E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFD66C71B8BEECC003C3B53 /* caster_icon.png in Resources */,
+				FFFD66C51B8BEEB2003C3B53 /* Media.xcassets in Resources */,
+				EF0354191A6582070012786E /* LaunchScreen.xib in Resources */,
+				FF2A382A1B8CBF2500D4B296 /* Main.storyboard in Resources */,
+				FF2A382E1B8E07E900D4B296 /* ring.gif in Resources */,
+				FFFD66C11B79AF0D003C3B53 /* playicon.png in Resources */,
+				EF0354161A6582070012786E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C657C0BA474984E9BDE8F00 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9483ED179C9607ECC016702 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloVideo-Swift/Pods-HelloVideo-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0354051A6582070012786E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2A38251B8C112500D4B296 /* SearchView.swift in Sources */,
+				FF2A38271B8C136600D4B296 /* InfoTableViewCell.swift in Sources */,
+				FFFD66C31B8B9FA2003C3B53 /* Just.swift in Sources */,
+				FF2A382C1B8D675A00D4B296 /* SwiftyJSON.swift in Sources */,
+				EF0354111A6582070012786E /* ViewController.swift in Sources */,
+				EF03540F1A6582070012786E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF0354171A6582070012786E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0354181A6582070012786E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		FF2A38281B8CBF2500D4B296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF2A38291B8CBF2500D4B296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0354261A6582070012786E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Holmes (R54RNR8R74)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Holmes (R54RNR8R74)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0354271A6582070012786E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: David Holmes (R54RNR8R74)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Holmes (R54RNR8R74)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0354291A6582070012786E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D671BF7ABB541958E2E0DB1 /* Pods-HelloVideo-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Holmes (R54RNR8R74)";
+				INFOPLIST_FILE = "HelloVideo-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloVideo-Swift/Bridging/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		EF03542A1A6582070012786E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CF10E6D4CCA1D526B2E58B /* Pods-HelloVideo-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Holmes (R54RNR8R74)";
+				INFOPLIST_FILE = "HelloVideo-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloVideo-Swift/Bridging/Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0354041A6582070012786E /* Build configuration list for PBXProject "HelloVideo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0354261A6582070012786E /* Debug */,
+				EF0354271A6582070012786E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0354281A6582070012786E /* Build configuration list for PBXNativeTarget "HelloVideo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0354291A6582070012786E /* Debug */,
+				EF03542A1A6582070012786E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0354011A6582070012786E /* Project object */;
+}
